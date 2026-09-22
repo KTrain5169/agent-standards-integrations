@@ -1,0 +1,29 @@
+{
+  "name": "agent-standards-integrations",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "vp config"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "vite": "catalog:",
+    "vite-plus": "catalog:"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.15.0",
+      "onFail": "download"
+    }
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}
