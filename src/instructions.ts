@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-import matter from "gray-matter";
+import matter from "@11ty/gray-matter";
 
 import { agents as agentList, SupportedAgents } from "./consts/agents";
 import { SerializableTypes } from "./types/serializableTypes";
